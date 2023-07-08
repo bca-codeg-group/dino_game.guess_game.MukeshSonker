@@ -24,7 +24,7 @@ void draw() {
     }
     printf("\n");
 
-    for (int i = 0; i < HEIGHT; i++) {
+    for (int i = 2; i < HEIGHT; i++) {
         for (int j = 0; j < WIDTH; j++) {
             if (i == dinoY && j == dinoX) {
                 printf("D");
