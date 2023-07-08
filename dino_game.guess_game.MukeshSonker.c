@@ -48,7 +48,7 @@ void draw() {
 void update() {
     if (obstacleX == 0) {
         score++;
-        obstacleX = WIDTH - 1;
+        obstacleX = WIDTH - 2;
     } else {
         obstacleX--;
     }
