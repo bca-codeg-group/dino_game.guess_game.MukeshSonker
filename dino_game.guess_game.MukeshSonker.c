@@ -11,7 +11,7 @@ int score;
 
 void initialize() {
     dinoX = 5;
-    dinoY = HEIGHT - 1;
+    dinoY = HEIGHT - 8;
     obstacleX = WIDTH - 1;
     score = 0;
 }
